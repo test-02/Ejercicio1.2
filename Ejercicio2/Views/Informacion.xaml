@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.Views.Informacion">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Nombre}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="20"/>
+
+            <Label Text="{Binding Apellidos}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="20"/>
+
+            <Label Text="{Binding Edad}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="20"/>
+
+            <Label Text="{Binding Correo}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
