@@ -17,6 +17,7 @@ namespace Ejercicio2
 
         private async void Btninformacion_Clicked(object sender, EventArgs e)
         {
+            // No es la forma correcta
             if (string.IsNullOrWhiteSpace(nombre.Text) || string.IsNullOrWhiteSpace(apellidos.Text)
                 || string.IsNullOrWhiteSpace(edad.Text) || string.IsNullOrWhiteSpace(correo.Text))
             {
